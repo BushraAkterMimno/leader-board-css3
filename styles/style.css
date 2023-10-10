@@ -1,6 +1,7 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Open+Sans:ital@1&family=Poppins:wght@500&display=swap');
 
+
 /* common styles or utilities */
 body{
     font-family: 'Poppins', sans-serif;
@@ -80,12 +81,17 @@ hr{
     font-size: 16px;
     color: #562EFF;
 }
+article{
+    padding-left: 10px;
+}
 
 /* courses style */
 .courses{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 24px;
+    background-color: #FFFFFF;
+    /* box-shadow: (0px 5.34229px 13.3557px)#AEAEAE; */
 }
 .course .course-banner img{
     width: 224px;
