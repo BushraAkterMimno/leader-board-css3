@@ -1,6 +1,29 @@
 /* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Open+Sans:ital@1&family=Poppins:wght@500&display=swap');
 
+nav > ul{
+    display: flex;
+    background-color: blue;
+    margin-top: 20px;
+    padding-left: 30px;
+    align-items: center;
+    font-size: 20px;
+ }
+ nav li{
+    list-style: none;
+    margin-right: 20px;
+    padding: 3px 10px;
+ }
+.img-size{
+    height: 40px;
+    width: 35px;
+}
+.navbar{
+    padding-left: 450px;
+}
+.nb{
+    padding-left: 650px;
+}
 
 /* common styles or utilities */
 body{
@@ -119,5 +142,5 @@ article{
 }
 .position{
     padding-right: 57px;
-    padding-top: 20px;
+    padding-top: 8px;
 }
